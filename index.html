@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Mike's Pomodoro Timer</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <head><link href='https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,500italic' rel='stylesheet' type='text/css'></head>
+
+<body>
+  <header>Mike's Pomodoro Timer</header>
+
+  <div id="main-count" class="timer-controls">
+    <div id="main-text">Main Timer</div>
+    <div id="main-minus" class="increment" onclick="lessTime('main-min')">-</div>
+    <div id="main-min" class="timer-set">25</div>
+    <div id="main-plus" class="increment" onclick="moreTime('main-min')">+</div>
+  </div>
+  <div id="break-count" class="timer-controls">
+    <div id="break-text">Break Timer</div>
+    <div id="break-minus" class="increment" onclick="lessTime('break-min')">-</div>
+    <div id="break-min" class="timer-set">5</div>
+    <div id="break-plus" class="increment" onclick="moreTime('break-min')">+</div>
+  </div>
+  <div id="timer" onclick="initTimer()">
+    <div id="timer-label">Main</div>
+    <div id="Hrs" class="digits"></div>
+    <div id="Mins" class="digits">25</div>
+    <div id="Secs" class="digits"></div>
+  </div>
+  <div id="test"></div>
+  <div id="test2"></div>
+</body>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
