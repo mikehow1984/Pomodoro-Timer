@@ -1,4 +1,6 @@
-
+body{
+  background-color: #ffff86;
+}
 header{
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: bold;
@@ -11,7 +13,8 @@ header{
   width: 20px;
   text-align: center;
   display: inline-block;
-  
+  cursor: pointer;
+ 
 }
 
 .timer-set{
@@ -21,14 +24,14 @@ header{
 }
 
 #timer{
-  width: 70%;
-  margin: auto;
+  width: 50%;
+  cursor: pointer;
+  margin: 20px auto;
   font-size: 36px;
   border: solid;
-  border-radius: 5px;
+  border-radius: 60px 0px;
   padding: 20px;
   text-align: center;
-  background-color: #FFFFFF;
   background-repeat: no-repeat;
   background-image: url("http://aintuanengineer.com/img/cyan.jpg");
   background-size: 0% 100%;
@@ -44,6 +47,7 @@ header{
 .timer-controls{
   display:inline-block;
   width: 49%;
+  margin: 30px 0px 0px 0px;
   text-align: center;
   font-weight: bold;
   font-family: Verdana,

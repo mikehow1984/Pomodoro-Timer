@@ -147,6 +147,7 @@ function initTimer() {
     if (t.h > 0) {
       hrsTimer.innerHTML = t.h + ":";
     }
+    else{$('#Hrs').empty();}
     minTimer.innerHTML = ("0" + t.m).slice(-2) + ":";
     secTimer.innerHTML = ("0" + t.s).slice(-2);
 
